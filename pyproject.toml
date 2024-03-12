@@ -1,0 +1,33 @@
+
+[tool.poetry]
+name = "mojo-dezero"
+version = "1.0.0"
+description = "mojo with python MLP."
+authors = ["JoonHo Jeon <kueckhoou@gmail.com>"]
+readme = "README.md"
+packages = []
+
+
+[tool.poetry.urls]
+Homepage = "https://github.com/youlseol"
+Documentation = "https://github.com/youlseol/mojo-dezero/README.md"
+Repository = "https://github.com/youlseol/mojo-dezero"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+pydub = "^0.25.1"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+
+[tool.poetry.extras]
+
+[tool.poetry.group.dev.dependencies]
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.0"
+pytest-vcr = "^1.0.2"
+python-dotenv = "1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
